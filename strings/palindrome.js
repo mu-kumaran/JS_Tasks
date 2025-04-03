@@ -6,6 +6,7 @@ function check()
 	{
 		pal += name[i]
 	}
+    document.getElementById("reverse").innerHTML = "Reverse String: "+pal;
 	if(pal === name)
 	{
 		document.getElementById("palcheck").innerHTML = "Its a palindrome";
